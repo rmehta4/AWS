@@ -1,8 +1,0 @@
--- Use Apache Spark on Amazon EMR
-
--- Zillow uses Amazon Kinesis Streams to ingest a variety of data, including public-property records, home tax assessments, sales
-transactions, images and video, MLS-listing data, and user-provided information. All this data is ingested and pushed into Spark on
-Amazon EMR, which runs machine-learning models and gives users near-real-time Zestimates. The same dataset is sent in parallel from 
-Amazon Kinesis Streams to Amazon Kinesis Firehose, which batches the data in 15-minute intervals and delivers it to Zillow’s centralized 
-data lake on Amazon Simple Storage Service (Amazon S3). From the data lake, a number of applications such as personalization, advertising
-optimization,and recommendations use the data without storage scalability concerns.
